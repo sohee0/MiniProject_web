@@ -1,0 +1,20 @@
+{%load static%}
+
+<body>
+
+    <img src='/static/img/about.jpg'>
+
+    {% for wave in wave_list %}
+    <h3>{{ wave.beach_name }} /
+        {{ wave.obs_time }}/
+        {{ wave.air_temp }}/
+        {{ wave.water_temp }}/
+        {{ wave.wind_speed }}/
+        {{ wave.wind_direct }}/
+        {{ wave.wave_height }}/
+        {{ wave.wave_period }}/
+        {{ wave.score }}/
+        {{ wave.score_msg }}</h3>
+    {% endfor %}
+
+</body>

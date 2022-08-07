@@ -1,0 +1,110 @@
+{% block content %}
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* Remove the navbar's default margin-bottom and rounded borders */ 
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+      
+      /* Add a gray background color and some padding to the footer */
+      footer {
+        background-color: #f2f2f2;
+        padding: 25px;
+      }
+    </style>
+  </head>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/beach" class="nav-link active" aria-current="page">Home</a></li>
+        <!-- <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
+      </ul>
+    </header>
+  </div>
+
+</html>
+{% endblock %}
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>이안류정보</h2>
+    <div style="text-align:center;"><img src="/static/img/{{img}}.png"></div>
+  <table class="table table-bordered">
+   
+      <tr>
+        
+      
+      <hb><th>관측시간</th></hb>
+      <hb> <th>기온</th></hb>
+      <hb><th>수온</th></hb>
+      <hb><th>풍속</th></hb>
+      <hb><th>풍향</th></hb>
+      <hb> <th>파고</th></hb>
+      <hb> <th>파주기</th></hb>
+      <hb> <th>지수수치</th></hb>
+      <hb> <th>지수</th></hb>
+      </tr>
+      
+    
+    {% for wave in wave_list %}
+    <tr>
+       <td> {{wave.obs_time}}</td>
+       <td> {{wave.air_temp }}</td>
+       <td> {{wave.water_temp}}</td>
+       <td> {{wave.wind_speed}}</td>
+       <td> {{wave.wind_direct}}</td>
+       <td> {{wave.wave_height}}</td>
+       <td> {{wave.wave_period}}</td>
+       <td> {{wave.score}}</td>
+       <td> {{wave.score_msg}}</td>
+    </tr>
+
+      {% comment %} <tr>
+        <td> 
+            {% for x in listnames %}
+              <li>{{ x.beach_name }}</li>
+            {% endfor %}
+        </td>
+        <td>John</td>
+        <td>John</td>
+        <td>John</td>
+        <td>John</td>
+        <td>John</td>
+        <td>John</td>
+        <td>John</td>
+        <td>John</td>
+        <td>John</td>
+      </tr> {% endcomment %}
+     
+      {% endfor %}
+
+    
+  </table>
+</div>
+</html>
+
