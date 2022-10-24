@@ -22,8 +22,8 @@
   - home버튼은 Bootstrap에서 사용
    -(https://www.w3schools.com/bootstrap5/bootstrap_buttons.php)
    
-## 사용Tool
- - Vscode
- - MYSQL (Heidi SQL 사용)
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
  
 
