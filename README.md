@@ -21,6 +21,10 @@
    -(https://templatemo.com/tm-554-ocean-vibes)
   - home버튼은 Bootstrap에서 사용
    -(https://www.w3schools.com/bootstrap5/bootstrap_buttons.php)
+ 
+### Skills
+![Python](https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Python&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
    
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white)
