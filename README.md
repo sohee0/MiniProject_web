@@ -23,7 +23,7 @@
    -(https://www.w3schools.com/bootstrap5/bootstrap_buttons.php)
  
 ### Skills
-![Python]<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Sass&logoColor=blue"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Sass&logoColor=blue"/>
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
    
