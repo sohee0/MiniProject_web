@@ -22,11 +22,10 @@
   - home버튼은 Bootstrap에서 사용
    -(https://www.w3schools.com/bootstrap5/bootstrap_buttons.php)
  
-### Skills
+### Stacks
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white")
-
-
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
+<img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
 
    
 ### Tools
